@@ -2,6 +2,7 @@ from fbmq import QuickReply, Template
 from example.fbpage import page
 import os
 from flask import Flask, request
+from config import SERVER_URL, PAGE_ACCESS_TOKEN, VERIFY_TOKEN
 
 # تحميل البيئة من .env
 
