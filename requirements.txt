@@ -3,4 +3,3 @@ flask
 requests
 fbmq
 dotenv
-os
