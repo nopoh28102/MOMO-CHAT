@@ -1,6 +1,3 @@
-gunicorn
 flask
 requests
 fbmq
-dotenv
-distribute
