@@ -1,0 +1,7 @@
+{
+  "phases": {
+    "start": {
+      "cmd": "python app.py"
+    }
+  }
+}
