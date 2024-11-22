@@ -1,16 +1,9 @@
 from fbmq import QuickReply, Template
 from example.fbpage import page
-from dotenv import load_dotenv
 import os
 from flask import Flask, request
 
 # تحميل البيئة من .env
-
-
-
-SERVER_URL = os.getenv("SERVER_URL")
-PAGE_ACCESS_TOKEN = os.getenv("PAGE_ACCESS_TOKEN")
-VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 
 
 
