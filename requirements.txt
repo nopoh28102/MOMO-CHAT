@@ -1,0 +1,6 @@
+gunicorn
+flask
+requests
+fbmq
+dotenv
+os
