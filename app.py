@@ -5,10 +5,14 @@ import os
 from flask import Flask, request
 
 # تحميل البيئة من .env
-load_dotenv()
 
+
+
+SERVER_URL = os.getenv("SERVER_URL")
 PAGE_ACCESS_TOKEN = os.getenv("PAGE_ACCESS_TOKEN")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+
+
 
 USER_SEQ = {}
 
